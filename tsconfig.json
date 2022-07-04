@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "rootDir": "./src",
+    "outDir": "./dist",
     "module": "commonjs",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -8,5 +10,6 @@
     "strict": false,
     "skipLibCheck": true,
     "typeRoots": ["./src/@types", "node_modules/@types"]
-  }
+  },
+  "include": ["src"]
 }

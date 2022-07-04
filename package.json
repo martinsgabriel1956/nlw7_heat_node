@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --exit-child src/server.ts"
+    "dev": "ts-node-dev --exit-child src/server.ts",
+    "start": "node dist/server.js"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
